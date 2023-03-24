@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     meiversion="4.0.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title label="work">Cantique de Noël = Christmas song</title>
+            <composer>
+               <name role="composer">Adam, Adolphe, 1803-1856; Strube, Gustav, 1867-1953</name>
+            </composer>
+            <lyricist>
+               <name role="lyricist">Dwight, John Sullivan, 1813-1893</name>
+            </lyricist>
+         </titleStmt>
+         <pubStmt/>
+         <sourceDesc>
+            <source>
+               <bibl>
+                  <title label="work">Cantique de Noël = Christmas song</title>
+                  <composer>
+                     <name role="composer">Adam, Adolphe, 1803-1856; Strube, Gustav, 1867-1953</name>
+                  </composer>
+                  <lyricist>
+                     <name role="lyricist">Dwight, John Sullivan, 1813-1893</name>
+                  </lyricist>
+                  <imprint/>
+                  <annot>Source MusicXML file created using MuseScore 3.0.2 on <date>2020-05-11</date>.</annot>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="v1.0_beta" xml:id="app_202375211340771">
+               <name>mei30To40.xsl</name>
+            </application>
+         </appInfo>
+         <editorialDecl>
+            <normalization>
+               <p>Calculation of @tstamp and @tstamp2 values on control events, such as dir, dynam,
+              hairpin, etc., includes MusicXML offset values.</p>
+               <p>The parameters for musicxml2mei.xsl were set as follows: <list>
+                     <li>accidStyle: "attr", </li>
+                     <li>articStyle: "elem", </li>
+                     <li>formeWork: "strip", </li>
+                     <li>generateMIDI: "false", </li>
+                     <li>keepAttributes: "false", </li>
+                     <li>keepRights: "false", </li>
+                     <li>labelStyle: "attr", </li>
+                     <li>layout: "strip", </li>
+                     <li>tieStyle: "attr"</li>
+                  </list>
+               </p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <workList>
+         <work>
+            <title label="work">Cantique de Noël = Christmas song</title>
+            <composer>
+               <name role="composer">Adam, Adolphe, 1803-1856; Strube, Gustav, 1867-1953</name>
+            </composer>
+            <lyricist>
+               <name role="lyricist">Dwight, John Sullivan, 1813-1893</name>
+            </lyricist>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Transcoded from a MusicXML version 3.1 file using an XSLT stylesheet (musicxml2mei v. 3.0).</p>
+            </changeDesc>
+            <date>2023-03-16</date>
+         </change>
+         <change n="2" resp="#app_202375211340771">
+            <changeDesc>
+               <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version
+                1.0 beta</p>
+            </changeDesc>
+            <date isodate="2023-03-16"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef key.sig="3f" meter.count="4" meter.sym="common" meter.unit="4">
+                  <staffGrp>
+                     <staffDef clef.line="2"
+                               clef.shape="G"
+                               key.sig="3f"
+                               lines="5"
+                               n="1"
+                               xml:id="P1">
+                        <label>Violin</label>
+                        <labelAbbr>Vln.</labelAbbr>
+                     </staffDef>
+                     <staffDef clef.line="2"
+                               clef.shape="G"
+                               key.sig="3f"
+                               lines="5"
+                               n="2"
+                               xml:id="P2">
+                        <label>Voice</label>
+                        <labelAbbr>Vo.</labelAbbr>
+                     </staffDef>
+                     <staffGrp symbol="brace" xml:id="P3">
+                        <label>Piano</label>
+                        <staffDef clef.line="2" clef.shape="G" key.sig="3f" lines="5" n="3"/>
+                        <staffDef clef.line="4" clef.shape="F" key.sig="3f" lines="5" n="4"/>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <measure n="1" right="rptstart" xml:id="w65195ab1c17">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="4"
+                                 oct="5"
+                                 pname="g"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c17b1b7"/>
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="5"
+                                 pname="e"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c17b1b9"/>
+                           <note dur="4"
+                                 oct="5"
+                                 pname="d"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c17b1c11"/>
+                           <note dur="4"
+                                 oct="5"
+                                 pname="c"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c17b1c13"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c17b3b5"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5b5"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5b7"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5b9"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c11"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c13"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c15"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c17"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c19"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c21"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c23"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c25"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c17b5c27"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <chord dur="1" xml:id="d65216e1">
+                              <note accid.ges="f" oct="2" pname="e" xml:id="w65195ab1c17b5c31"/>
+                              <note accid.ges="f" oct="2" pname="b" xml:id="w65195ab1c17b5c33"/>
+                              <note accid.ges="f" oct="3" pname="e" xml:id="w65195ab1c17b5c35"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c17b1c13"
+                           staff="1"
+                           startid="#w65195ab1c17b1b7"
+                           tstamp="1"
+                           tstamp2="0m+4"/>
+                     <tempo place="above" staff="1" tstamp="1"><!--midi.tempo value rounded to integer value.-->Andante maestoso</tempo>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c17b5b9"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c17b5b5"
+                                 tstamp="1"
+                                 tstamp2="0m+1.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c17b5c15"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c17b5c11"
+                                 tstamp="2"
+                                 tstamp2="0m+2.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c17b5c21"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c17b5c17"
+                                 tstamp="3"
+                                 tstamp2="0m+3.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c17b5c27"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c17b5c23"
+                                 tstamp="4"
+                                 tstamp2="0m+4.6667"/>
+                  </measure>
+               </section>
+               <section>
+                  <measure left="rptstart" n="2" xml:id="w65195ab1c19">
+                     <staff n="1">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dots="1"
+                                 dur="4"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c19b1b5"/>
+                           <note dur="8"
+                                 oct="5"
+                                 pname="c"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c19b1b7"/>
+                           <note accid.ges="f"
+                                 dur="2"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c19b1b9"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <rest dur="4" xml:id="w65195ab1c19b3b3"/>
+                           <rest dots="1" dur="8" xml:id="w65195ab1c19b3b5"/>
+                           <note dur="16"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w65195ab1c19b3b7">
+                              <verse n="1">
+                                 <syl x="1.316">O</syl>
+                              </verse>
+                           </note>
+                           <note dur="4"
+                                 oct="4"
+                                 pname="g"
+                                 stem.dir="up"
+                                 xml:id="w65195ab1c19b3b9">
+                              <verse n="1">
+                                 <syl x="1.316">ho</syl>
+                              </verse>
+                           </note>
+                           <beam>
+                              <note dots="1"
+                                    dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b3c11"/>
+                              <note dur="16"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b3c13">
+                                 <verse n="1">
+                                    <syl x="1.316">ly</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5b3"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5b5"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5b7"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5b9"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5c11"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5c13"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5c15"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5c17"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5c19"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5c21"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5c23"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c19b5c25"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <chord dur="1" xml:id="d65304e1">
+                              <note accid.ges="f" oct="2" pname="e" xml:id="w65195ab1c19b5c29"/>
+                              <note accid.ges="f" oct="2" pname="b" xml:id="w65195ab1c19b5c31"/>
+                              <note accid.ges="f" oct="3" pname="e" xml:id="w65195ab1c19b5c33"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <dir label="segno" place="above" staff="1" tstamp="1">𝄋<!--[segno]--></dir>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c19b1b9"
+                           staff="1"
+                           startid="#w65195ab1c19b1b5"
+                           tstamp="1"
+                           tstamp2="0m+3"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c19b5b7"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c19b5b3"
+                                 tstamp="1"
+                                 tstamp2="0m+1.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c19b5c13"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c19b5b9"
+                                 tstamp="2"
+                                 tstamp2="0m+2.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c19b5c19"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c19b5c15"
+                                 tstamp="3"
+                                 tstamp2="0m+3.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c19b5c25"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c19b5c21"
+                                 tstamp="4"
+                                 tstamp2="0m+4.6667"/>
+                  </measure>
+                  <sb/>
+                  <measure n="3" xml:id="w65195ab1c21">
+                     <staff n="1">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="5"
+                                 pname="e"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c21b1b3"/>
+                           <note dur="4"
+                                 oct="5"
+                                 pname="d"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c21b1b5"/>
+                           <beam>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b1b7"/>
+                              <note accid="n"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b1b9"/>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b1c11"/>
+                           </beam>
+                           <beam>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b1c13"/>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="d"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b1c15"/>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b1c17"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c21b3b3">
+                              <verse n="1">
+                                 <syl x="1.556">night!</syl>
+                              </verse>
+                           </note>
+                           <beam>
+                              <note accid.ges="f"
+                                    dots="1"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b3b5"/>
+                              <note accid.ges="f"
+                                    dur="16"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b3b7">
+                                 <verse n="1">
+                                    <syl x="1.316">the</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note dots="1"
+                                    dur="8"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b3b9">
+                                 <verse n="1">
+                                    <syl x="1.316">stars</syl>
+                                 </verse>
+                              </note>
+                              <note dur="16"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b3c11">
+                                 <verse n="1">
+                                    <syl x="1.316">are</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                           <beam>
+                              <note accid.ges="f"
+                                    dots="1"
+                                    dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b3c13">
+                                 <verse n="1">
+                                    <syl con="d" wordpos="i" x="1.316">bright</syl>
+                                 </verse>
+                              </note>
+                              <note dur="16"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c21b3c15">
+                                 <verse n="1">
+                                    <syl wordpos="t" x="1.316">ly</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5b3"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5b5"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5b7"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5b9"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5c11"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5c13"/>
+                           </beam>
+                           <beam>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5c15"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5c17"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5c19"/>
+                           </beam>
+                           <beam>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5c21"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5c23"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c21b5c25"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <chord dur="2" stem.dir="up" xml:id="d65406e1">
+                              <note accid.ges="f" oct="2" pname="e" xml:id="w65195ab1c21b5c29"/>
+                              <note accid.ges="f" oct="2" pname="b" xml:id="w65195ab1c21b5c31"/>
+                              <note accid.ges="f" oct="3" pname="e" xml:id="w65195ab1c21b5c33"/>
+                           </chord>
+                           <chord dur="2" stem.dir="up" xml:id="d65413e1">
+                              <note accid.ges="f" oct="2" pname="a" xml:id="w65195ab1c21b5c35"/>
+                              <note accid.ges="f" oct="3" pname="e" xml:id="w65195ab1c21b5c37"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c21b1b5"
+                           staff="1"
+                           startid="#w65195ab1c21b1b3"
+                           tstamp="1"
+                           tstamp2="0m+2"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c21b5b7"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c21b5b3"
+                                 tstamp="1"
+                                 tstamp2="0m+1.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c21b5c13"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c21b5b9"
+                                 tstamp="2"
+                                 tstamp2="0m+2.6667"/>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c21b1c17"
+                           staff="1"
+                           startid="#w65195ab1c21b1b7"
+                           tstamp="3"
+                           tstamp2="0m+4.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c21b1c11"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="1"
+                                 startid="#w65195ab1c21b1b7"
+                                 tstamp="3"
+                                 tstamp2="0m+3.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c21b5c19"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c21b5c15"
+                                 tstamp="3"
+                                 tstamp2="0m+3.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c21b1c17"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="1"
+                                 startid="#w65195ab1c21b1c13"
+                                 tstamp="4"
+                                 tstamp2="0m+4.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c21b5c25"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c21b5c21"
+                                 tstamp="4"
+                                 tstamp2="0m+4.6667"/>
+                  </measure>
+                  <measure n="4" xml:id="w65195ab1c23">
+                     <staff n="1">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 tie="i"
+                                 xml:id="w65195ab1c23b1b1"/>
+                           <beam>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="up"
+                                    tie="t"
+                                    xml:id="w65195ab1c23b1b3"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b1b5"/>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b1b7"/>
+                           </beam>
+                           <note accid.ges="f"
+                                 dur="2"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 tie="i"
+                                 xml:id="w65195ab1c23b1b9"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dur="2"
+                                 oct="5"
+                                 pname="e"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c23b3b1">
+                              <verse n="1">
+                                 <syl con="d" wordpos="i" x="1.388">shi</syl>
+                              </verse>
+                           </note>
+                           <note accid.ges="f"
+                                 dur="8"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c23b3b3">
+                              <verse n="1">
+                                 <syl wordpos="t" x="1.316">ning</syl>
+                              </verse>
+                           </note>
+                           <rest dur="16" xml:id="w65195ab1c23b3b5"/>
+                           <note accid.ges="f"
+                                 dur="16"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c23b3b7">
+                              <verse n="1">
+                                 <syl x="1.316">it</syl>
+                              </verse>
+                           </note>
+                           <beam>
+                              <note dots="1"
+                                    dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b3b9">
+                                 <verse n="1">
+                                    <syl x="1.316">is</syl>
+                                 </verse>
+                              </note>
+                              <note dur="16"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b3c11">
+                                 <verse n="1">
+                                    <syl x="1.316">the</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5b1"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5b3"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5b5"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5b7"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5b9"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5c11"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5c13"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5c15"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5c17"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5c19"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5c21"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c23b5c23"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <chord dur="2" stem.dir="up" xml:id="d65530e1">
+                              <note accid.ges="f" oct="2" pname="e" xml:id="w65195ab1c23b5c27"/>
+                              <note accid.ges="f" oct="2" pname="b" xml:id="w65195ab1c23b5c29"/>
+                              <note accid.ges="f" oct="3" pname="e" xml:id="w65195ab1c23b5c31"/>
+                           </chord>
+                           <chord dur="2" stem.dir="up" xml:id="d65537e1">
+                              <note accid.ges="f" oct="2" pname="a" xml:id="w65195ab1c23b5c33"/>
+                              <note accid.ges="f" oct="3" pname="e" xml:id="w65195ab1c23b5c35"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c23b1b7"
+                           staff="1"
+                           startid="#w65195ab1c23b1b1"
+                           tstamp="1"
+                           tstamp2="0m+2.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c23b5b5"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c23b5b1"
+                                 tstamp="1"
+                                 tstamp2="0m+1.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c23b1b7"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="1"
+                                 startid="#w65195ab1c23b1b3"
+                                 tstamp="2"
+                                 tstamp2="0m+2.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c23b5c11"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c23b5b7"
+                                 tstamp="2"
+                                 tstamp2="0m+2.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c23b5c17"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c23b5c13"
+                                 tstamp="3"
+                                 tstamp2="0m+3.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c23b5c23"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c23b5c19"
+                                 tstamp="4"
+                                 tstamp2="0m+4.6667"/>
+                  </measure>
+                  <pb/>
+                  <measure n="5" xml:id="w65195ab1c25">
+                     <staff n="1">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 tie="t"
+                                 xml:id="w65195ab1c25b1b3"/>
+                           <rest dur="4" xml:id="w65195ab1c25b1b5"/>
+                           <rest dur="4" xml:id="w65195ab1c25b1b7"/>
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="4"
+                                 pname="b"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c25b1b9"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w65195ab1c25b3b3">
+                              <verse n="1">
+                                 <syl x="1.316">night</syl>
+                              </verse>
+                           </note>
+                           <beam>
+                              <chord dots="1" dur="8" stem.dir="up" xml:id="d65631e1">
+                                 <note oct="4" pname="d" xml:id="w65195ab1c25b3b5">
+                                    <verse n="1">
+                                       <syl x="1.316">of</syl>
+                                    </verse>
+                                 </note>
+                                 <note oct="4" pname="g" xml:id="w65195ab1c25b3b7"/>
+                              </chord>
+                              <chord dur="16" stem.dir="up" xml:id="d65637e1">
+                                 <note oct="4" pname="c" xml:id="w65195ab1c25b3b9">
+                                    <verse n="1">
+                                       <syl x="1.316">the</syl>
+                                    </verse>
+                                 </note>
+                                 <note accid.ges="f" oct="4" pname="a" xml:id="w65195ab1c25b3c11"/>
+                              </chord>
+                           </beam>
+                           <chord dur="4" stem.dir="up" xml:id="d65643e1">
+                              <note accid.ges="f" oct="3" pname="b" xml:id="w65195ab1c25b3c13">
+                                 <verse n="1">
+                                    <syl x="1.316">dear</syl>
+                                 </verse>
+                              </note>
+                              <note accid.ges="f" oct="4" pname="b" xml:id="w65195ab1c25b3c15"/>
+                           </chord>
+                           <beam>
+                              <chord dots="1" dur="8" stem.dir="up" xml:id="d65649e1">
+                                 <note oct="4" pname="c" xml:id="w65195ab1c25b3c17">
+                                    <verse n="1">
+                                       <syl con="d" wordpos="i" x="1.316">sa</syl>
+                                    </verse>
+                                 </note>
+                                 <note accid.ges="f" oct="4" pname="a" xml:id="w65195ab1c25b3c19"/>
+                              </chord>
+                              <chord dur="16" stem.dir="up" xml:id="d65655e1">
+                                 <note oct="4" pname="d" xml:id="w65195ab1c25b3c21">
+                                    <verse n="1">
+                                       <syl wordpos="t" x="1.316">vior's</syl>
+                                    </verse>
+                                 </note>
+                                 <note oct="4" pname="f" xml:id="w65195ab1c25b3c23"/>
+                              </chord>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5b3"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5b5"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5b7"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5b9"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5c11"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5c13"/>
+                           </beam>
+                           <beam>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="a"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5c15"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5c17"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5c19"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5c21"/>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5c23"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c25b5c25"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <chord dur="1" xml:id="d65673e1">
+                              <note accid.ges="f" oct="1" pname="b" xml:id="w65195ab1c25b5c29"/>
+                              <note accid.ges="f" oct="2" pname="b" xml:id="w65195ab1c25b5c31"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c25b5b7"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c25b5b3"
+                                 tstamp="1"
+                                 tstamp2="0m+1.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c25b5c13"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c25b5b9"
+                                 tstamp="2"
+                                 tstamp2="0m+2.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c25b5c19"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c25b5c15"
+                                 tstamp="3"
+                                 tstamp2="0m+3.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c25b5c25"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c25b5c21"
+                                 tstamp="4"
+                                 tstamp2="0m+4.6667"/>
+                  </measure>
+                  <measure n="6" xml:id="w65195ab1c27">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="4"
+                                 oct="5"
+                                 pname="g"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c27b1b1"/>
+                           <beam>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c27b1b3"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c27b1b5"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="d"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c27b1b7"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c27b1b9"/>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c27b1c11"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c27b1c13"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dur="2"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="up"
+                                 xml:id="w65195ab1c27b3b1">
+                              <verse n="1">
+                                 <syl x="1.484">birth!</syl>
+                              </verse>
+                           </note>
+                           <rest dur="2" xml:id="w65195ab1c27b3b3"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5b1"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5b3"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5b5"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5b7"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5b9"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5c11"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5c13"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5c15"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5c17"/>
+                           </beam>
+                           <beam>
+                              <note dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5c19"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5c21"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w65195ab1c27b5c23"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <chord dur="1" xml:id="d65760e1">
+                              <note accid.ges="f" oct="2" pname="e" xml:id="w65195ab1c27b5c27"/>
+                              <note accid.ges="f" oct="2" pname="b" xml:id="w65195ab1c27b5c29"/>
+                              <note accid.ges="f" oct="3" pname="e" xml:id="w65195ab1c27b5c31"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c27b1b5"
+                           staff="1"
+                           startid="#w65195ab1c27b1b1"
+                           tstamp="1"
+                           tstamp2="0m+2.5"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c27b5b5"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c27b5b1"
+                                 tstamp="1"
+                                 tstamp2="0m+1.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c27b5c11"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c27b5b7"
+                                 tstamp="2"
+                                 tstamp2="0m+2.6667"/>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c27b1c13"
+                           staff="1"
+                           startid="#w65195ab1c27b1b7"
+                           tstamp="3"
+                           tstamp2="0m+4.5"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c27b5c17"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c27b5c13"
+                                 tstamp="3"
+                                 tstamp2="0m+3.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c27b5c23"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="3"
+                                 startid="#w65195ab1c27b5c19"
+                                 tstamp="4"
+                                 tstamp2="0m+4.6667"/>
+                  </measure>
+                  <measure n="7" xml:id="w65195ab1c29">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dots="1"
+                                 dur="4"
+                                 oct="6"
+                                 pname="c"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c29b1b1"/>
+                           <note dur="8"
+                                 oct="5"
+                                 pname="g"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c29b1b3"/>
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="5"
+                                 pname="b"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c29b1b5"/>
+                           <beam>
+                              <note accid.ges="f"
+                                    dots="1"
+                                    dur="8"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c29b1b7"/>
+                              <note accid.ges="f"
+                                    dur="16"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c29b1b9"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c29b3b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c29b5b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c29b5b5"/>
+                        </layer>
+                     </staff>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c29b1b3"
+                           staff="1"
+                           startid="#w65195ab1c29b1b1"
+                           tstamp="1"
+                           tstamp2="0m+2.5"/>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c29b1b9"
+                           staff="1"
+                           startid="#w65195ab1c29b1b7"
+                           tstamp="4"
+                           tstamp2="0m+4.75"/>
+                  </measure>
+                  <sb/>
+                  <measure n="8" xml:id="w65195ab1c31">
+                     <staff n="1">
+                        <layer n="1">
+                           <note accid.ges="f"
+                                 dur="4"
+                                 oct="6"
+                                 pname="e"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c31b1b3"/>
+                           <note dur="4"
+                                 oct="6"
+                                 pname="d"
+                                 stem.dir="down"
+                                 xml:id="w65195ab1c31b1b5"/>
+                           <note dur="4"
+                                 oct="6"
+                                 pname="c"
+                                 stem.dir="down"
+                                 tie="i"
+                                 xml:id="w65195ab1c31b1b7"/>
+                           <beam>
+                              <note dur="8"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"
+                                    tie="t"
+                                    xml:id="w65195ab1c31b1b9"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c31b1c11"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c31b1c13"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c31b3b3"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c31b5b3"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c31b5b7"/>
+                        </layer>
+                     </staff>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c31b1b5"
+                           staff="1"
+                           startid="#w65195ab1c31b1b3"
+                           tstamp="1"
+                           tstamp2="0m+2"/>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c31b1c13"
+                           staff="1"
+                           startid="#w65195ab1c31b1b7"
+                           tstamp="3"
+                           tstamp2="0m+4.6667"/>
+                     <tupletSpan bracket.visible="false"
+                                 endid="#w65195ab1c31b1c13"
+                                 num="3"
+                                 num.format="count"
+                                 numbase="2"
+                                 staff="1"
+                                 startid="#w65195ab1c31b1b9"
+                                 tstamp="4"
+                                 tstamp2="0m+4.6667"/>
+                  </measure>
+                  <measure n="9" xml:id="w65195ab1c33">
+                     <staff n="1">
+                        <layer n="1">
+                           <beam>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c33b1b1"/>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c33b1b3"/>
+                              <note accid.ges="f"
+                                    dur="8"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c33b1b5"/>
+                              <note dur="8"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"
+                                    xml:id="w65195ab1c33b1b7"/>
+                           </beam>
+                           <rest dur="2" xml:id="w65195ab1c33b1b9"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c33b3b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c33b5b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c33b5b5"/>
+                        </layer>
+                     </staff>
+                     <slur curvedir="above"
+                           endid="#w65195ab1c33b1b7"
+                           staff="1"
+                           startid="#w65195ab1c33b1b1"
+                           tstamp="1"
+                           tstamp2="0m+2.5"/>
+                  </measure>
+                  <measure n="10" xml:id="w65195ab1c35">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c35b1b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c35b3b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c35b5b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c35b5b5"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="11" xml:id="w65195ab1c37">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c37b1b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c37b3b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c37b5b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c37b5b5"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure n="12" right="end" xml:id="w65195ab1c39">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c39b1b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c39b3b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c39b5b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w65195ab1c39b5b5"/>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

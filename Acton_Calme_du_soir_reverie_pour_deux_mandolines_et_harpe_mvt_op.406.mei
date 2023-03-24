@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     meiversion="4.0.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title label="work">Calme du soir</title>
+            <composer>
+               <name role="composer">Acton, Charles, op. 406</name>
+            </composer>
+         </titleStmt>
+         <pubStmt/>
+         <sourceDesc>
+            <source>
+               <bibl>
+                  <title label="work">Calme du soir</title>
+                  <composer>
+                     <name role="composer">Acton, Charles, op. 406</name>
+                  </composer>
+                  <imprint/>
+                  <annot>Source MusicXML file created using MuseScore 3.0.2 on <date>2020-05-12</date>.</annot>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="v1.0_beta" xml:id="app_202375211326537">
+               <name>mei30To40.xsl</name>
+            </application>
+         </appInfo>
+         <editorialDecl>
+            <normalization>
+               <p>Calculation of @tstamp and @tstamp2 values on control events, such as dir, dynam,
+              hairpin, etc., includes MusicXML offset values.</p>
+               <p>The parameters for musicxml2mei.xsl were set as follows: <list>
+                     <li>accidStyle: "attr", </li>
+                     <li>articStyle: "elem", </li>
+                     <li>formeWork: "strip", </li>
+                     <li>generateMIDI: "false", </li>
+                     <li>keepAttributes: "false", </li>
+                     <li>keepRights: "false", </li>
+                     <li>labelStyle: "attr", </li>
+                     <li>layout: "strip", </li>
+                     <li>tieStyle: "attr"</li>
+                  </list>
+               </p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <workList>
+         <work>
+            <title label="work">Calme du soir</title>
+            <composer>
+               <name role="composer">Acton, Charles, op. 406</name>
+            </composer>
+         </work>
+      </workList>
+      <revisionDesc>
+         <change n="1">
+            <changeDesc>
+               <p>Transcoded from a MusicXML version 3.1 file using an XSLT stylesheet (musicxml2mei v. 3.0).</p>
+            </changeDesc>
+            <date>2023-03-16</date>
+         </change>
+         <change n="2" resp="#app_202375211326537">
+            <changeDesc>
+               <p>Converted to MEI version 4.0.0 using mei30To40.xsl, version
+                1.0 beta</p>
+            </changeDesc>
+            <date isodate="2023-03-16"/>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef key.sig="1f" meter.count="4" meter.sym="common" meter.unit="4">
+                  <staffGrp>
+                     <staffDef clef.line="2"
+                               clef.shape="G"
+                               key.sig="1f"
+                               lines="5"
+                               n="1"
+                               xml:id="P1">
+                        <label>Mandolin</label>
+                        <labelAbbr>Mdn.</labelAbbr>
+                     </staffDef>
+                     <staffDef clef.line="2"
+                               clef.shape="G"
+                               key.sig="1f"
+                               lines="5"
+                               n="2"
+                               xml:id="P2">
+                        <label>Mandolin</label>
+                        <labelAbbr>Mdn.</labelAbbr>
+                     </staffDef>
+                     <staffGrp symbol="brace" xml:id="P3">
+                        <label>Harp</label>
+                        <staffDef clef.line="2" clef.shape="G" key.sig="1f" lines="5" n="3"/>
+                        <staffDef clef.line="2" clef.shape="G" key.sig="1f" lines="5" n="4"/>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <measure n="1" xml:id="w62279ab1c15">
+                     <staff n="1">
+                        <layer n="1">
+                           <chord dur="8" stem.dir="up" xml:id="d62281e1">
+                              <artic artic="marc"/>
+                              <note oct="4" pname="c" xml:id="w62279ab1c15b1b7"/>
+                              <note oct="4" pname="e" xml:id="w62279ab1c15b1b9"/>
+                              <note accid.ges="f" oct="4" pname="b" xml:id="w62279ab1c15b1c11"/>
+                              <note oct="5" pname="e" xml:id="w62279ab1c15b1c13"/>
+                           </chord>
+                           <rest dur="8" xml:id="w62279ab1c15b1c15"/>
+                           <rest dur="4" xml:id="w62279ab1c15b1c17"/>
+                           <rest dur="2" xml:id="w62279ab1c15b1c19"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <chord dur="8" stem.dir="up" xml:id="d62295e1">
+                              <artic artic="marc"/>
+                              <note oct="4" pname="c" xml:id="w62279ab1c15b3b7"/>
+                              <note oct="4" pname="e" xml:id="w62279ab1c15b3b9"/>
+                              <note accid.ges="f" oct="4" pname="b" xml:id="w62279ab1c15b3c11"/>
+                              <note oct="5" pname="e" xml:id="w62279ab1c15b3c13"/>
+                           </chord>
+                           <rest dur="8" xml:id="w62279ab1c15b3c15"/>
+                           <rest dur="4" xml:id="w62279ab1c15b3c17"/>
+                           <rest dur="2" xml:id="w62279ab1c15b3c19"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <rest dur="8" xml:id="w62279ab1c15b5b9"/>
+                           <clef line="4" shape="F" tstamp="1.5" xml:id="w62279ab1c15b5c11b1"/>
+                           <beam>
+                              <note dur="32"
+                                    oct="3"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c13"/>
+                              <note dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c15"/>
+                              <note dur="32"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c17"/>
+                              <note accid.ges="f"
+                                    dur="32"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c19"/>
+                           </beam>
+                           <rest dur="8" xml:id="w62279ab1c15b5c21"/>
+                           <clef line="2" shape="G" tstamp="2.5" xml:id="w62279ab1c15b5c23b1"/>
+                           <beam>
+                              <note dur="32"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c25"/>
+                              <note dur="32"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c27"/>
+                              <note dur="32"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c29"/>
+                              <note accid.ges="f"
+                                    dur="32"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c31"/>
+                           </beam>
+                           <rest dur="8" xml:id="w62279ab1c15b5c33"/>
+                           <beam>
+                              <note dur="32"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c35"/>
+                              <note dur="32"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c37"/>
+                              <note dur="32"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c39"/>
+                              <note accid.ges="f"
+                                    dur="32"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c41"/>
+                           </beam>
+                           <rest dur="8" xml:id="w62279ab1c15b5c43"/>
+                           <beam>
+                              <note dur="32"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c45"/>
+                              <note dur="32"
+                                    oct="6"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c47"/>
+                              <note dur="32"
+                                    oct="6"
+                                    pname="g"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c49"/>
+                              <note accid.ges="f"
+                                    dur="32"
+                                    oct="6"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c51"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <beam>
+                              <note dur="32"
+                                    oct="2"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c57"/>
+                              <note dur="32"
+                                    oct="2"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c59"/>
+                              <note dur="32"
+                                    oct="2"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c61"/>
+                              <note accid.ges="f"
+                                    dur="32"
+                                    oct="2"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c63"/>
+                           </beam>
+                           <rest dur="8" xml:id="w62279ab1c15b5c65"/>
+                           <beam>
+                              <note dur="32"
+                                    oct="3"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c67"/>
+                              <note dur="32"
+                                    oct="3"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c69"/>
+                              <note dur="32"
+                                    oct="3"
+                                    pname="g"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c71"/>
+                              <note accid.ges="f"
+                                    dur="32"
+                                    oct="3"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c73"/>
+                           </beam>
+                           <rest dur="8" xml:id="w62279ab1c15b5c75"/>
+                           <clef line="2" shape="G" tstamp="3" xml:id="w62279ab1c15b5c77b1"/>
+                           <beam>
+                              <note dur="32"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c79"/>
+                              <note dur="32"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c81"/>
+                              <note dur="32"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c83"/>
+                              <note accid.ges="f"
+                                    dur="32"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="up"
+                                    xml:id="w62279ab1c15b5c85"/>
+                           </beam>
+                           <rest dur="8" xml:id="w62279ab1c15b5c87"/>
+                           <beam>
+                              <note dur="32"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c89"/>
+                              <note dur="32"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c91"/>
+                              <note dur="32"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c93"/>
+                              <note accid.ges="f"
+                                    dur="32"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    xml:id="w62279ab1c15b5c95"/>
+                           </beam>
+                           <rest dur="8" xml:id="w62279ab1c15b5c97"/>
+                        </layer>
+                     </staff>
+                     <dynam label="direction" place="below" staff="1" tstamp="1">p</dynam>
+                     <dynam label="direction" place="below" staff="2" tstamp="1">p</dynam>
+                     <dynam label="direction" place="below" staff="3" tstamp="1">p</dynam>
+                     <hairpin endid="#w62279ab1c15b5c51"
+                              form="cres"
+                              place="below"
+                              staff="3"
+                              tstamp="1"
+                              tstamp2="0m+5"/>
+                  </measure>
+                  <measure n="2" xml:id="w62279ab1c17">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w62279ab1c17b1b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w62279ab1c17b3b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <chord dur="4" stem.dir="down" xml:id="d62426e1">
+                              <artic artic="acc"/>
+                              <note oct="5" oct.ges="6" pname="c" xml:id="w62279ab1c17b5b5"/>
+                              <note oct="5" oct.ges="6" pname="e" xml:id="w62279ab1c17b5b7"/>
+                              <note oct="5" oct.ges="6" pname="g" xml:id="w62279ab1c17b5b9"/>
+                              <note oct="6" oct.ges="7" pname="c" xml:id="w62279ab1c17b5c11"/>
+                           </chord>
+                           <chord dur="2" stem.dir="down" xml:id="d62434e1">
+                              <artic artic="acc"/>
+                              <note oct="5" oct.ges="6" pname="c" xml:id="w62279ab1c17b5c13"/>
+                              <note oct="5" oct.ges="6" pname="e" xml:id="w62279ab1c17b5c15"/>
+                              <note oct="5" oct.ges="6" pname="g" xml:id="w62279ab1c17b5c17"/>
+                              <note oct="6" oct.ges="7" pname="c" xml:id="w62279ab1c17b5c19"/>
+                           </chord>
+                           <chord dur="4" stem.dir="down" xml:id="d62442e1">
+                              <artic artic="acc"/>
+                              <note oct="5" oct.ges="6" pname="c" xml:id="w62279ab1c17b5c21"/>
+                              <note accid="s"
+                                    oct="5"
+                                    oct.ges="6"
+                                    pname="d"
+                                    xml:id="w62279ab1c17b5c23"/>
+                              <note accid="s"
+                                    oct="5"
+                                    oct.ges="6"
+                                    pname="f"
+                                    xml:id="w62279ab1c17b5c25"/>
+                              <note oct="6" oct.ges="7" pname="c" xml:id="w62279ab1c17b5c27"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <chord dur="4" stem.dir="down" xml:id="d62450e1">
+                              <artic artic="acc"/>
+                              <note oct="4" oct.ges="5" pname="c" xml:id="w62279ab1c17b5c31"/>
+                              <note oct="4" oct.ges="5" pname="e" xml:id="w62279ab1c17b5c33"/>
+                              <note oct="4" oct.ges="5" pname="g" xml:id="w62279ab1c17b5c35"/>
+                              <note accid.ges="f"
+                                    oct="4"
+                                    oct.ges="5"
+                                    pname="b"
+                                    xml:id="w62279ab1c17b5c37"/>
+                           </chord>
+                           <chord dur="2" stem.dir="down" xml:id="d62458e1">
+                              <artic artic="acc"/>
+                              <note oct="4" oct.ges="5" pname="c" xml:id="w62279ab1c17b5c39"/>
+                              <note oct="4" oct.ges="5" pname="e" xml:id="w62279ab1c17b5c41"/>
+                              <note oct="4" oct.ges="5" pname="g" xml:id="w62279ab1c17b5c43"/>
+                              <note accid.ges="f"
+                                    oct="4"
+                                    oct.ges="5"
+                                    pname="b"
+                                    xml:id="w62279ab1c17b5c45"/>
+                           </chord>
+                           <chord dur="4" stem.dir="down" xml:id="d62466e1">
+                              <artic artic="acc"/>
+                              <note oct="4" oct.ges="5" pname="c" xml:id="w62279ab1c17b5c47"/>
+                              <note accid="s"
+                                    oct="4"
+                                    oct.ges="5"
+                                    pname="d"
+                                    xml:id="w62279ab1c17b5c49"/>
+                              <note accid="s"
+                                    oct="4"
+                                    oct.ges="5"
+                                    pname="f"
+                                    xml:id="w62279ab1c17b5c51"/>
+                              <note oct="4" oct.ges="5" pname="a" xml:id="w62279ab1c17b5c53"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <dynam label="direction" place="below" staff="3" tstamp="1">pp</dynam>
+                     <octave dis="8"
+                             dis.place="above"
+                             endid="#w62279ab1c19b5b7"
+                             staff="3"
+                             tstamp="1"
+                             tstamp2="1m+2"/>
+                  </measure>
+                  <measure n="3" xml:id="w62279ab1c19">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dur="4" xml:id="w62279ab1c19b1b1"/>
+                           <chord dur="8" stem.dir="down" xml:id="d62500e1">
+                              <artic artic="marc"/>
+                              <note oct="4" pname="a" xml:id="w62279ab1c19b1b5"/>
+                              <note accid="s" oct="5" pname="d" xml:id="w62279ab1c19b1b7"/>
+                           </chord>
+                           <rest dur="8" xml:id="w62279ab1c19b1b9"/>
+                           <beam>
+                              <chord dur="8" stem.dir="down" xml:id="d62508e1">
+                                 <artic artic="marc"/>
+                                 <note accid.ges="f" oct="4" pname="b" xml:id="w62279ab1c19b1c11"/>
+                                 <note oct="5" pname="e" xml:id="w62279ab1c19b1c13"/>
+                              </chord>
+                              <chord dur="8" stem.dir="down" xml:id="d62514e1">
+                                 <artic artic="marc"/>
+                                 <note accid.ges="f" oct="4" pname="b" xml:id="w62279ab1c19b1c15"/>
+                                 <note oct="5" pname="e" xml:id="w62279ab1c19b1c17"/>
+                              </chord>
+                           </beam>
+                           <rest dur="4" xml:id="w62279ab1c19b1c19"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <rest dur="4" xml:id="w62279ab1c19b3b1"/>
+                           <chord dur="8" stem.dir="up" xml:id="d62524e1">
+                              <artic artic="marc"/>
+                              <note oct="4" pname="c" xml:id="w62279ab1c19b3b5"/>
+                              <note accid="s" oct="4" pname="f" xml:id="w62279ab1c19b3b7"/>
+                           </chord>
+                           <rest dur="8" xml:id="w62279ab1c19b3b9"/>
+                           <beam>
+                              <chord dur="8" stem.dir="up" xml:id="d62532e1">
+                                 <artic artic="marc"/>
+                                 <note oct="4" pname="c" xml:id="w62279ab1c19b3c11"/>
+                                 <note oct="4" pname="g" xml:id="w62279ab1c19b3c13"/>
+                              </chord>
+                              <chord dur="8" stem.dir="up" xml:id="d62538e1">
+                                 <artic artic="marc"/>
+                                 <note oct="4" pname="c" xml:id="w62279ab1c19b3c15"/>
+                                 <note oct="4" pname="g" xml:id="w62279ab1c19b3c17"/>
+                              </chord>
+                           </beam>
+                           <rest dur="4" xml:id="w62279ab1c19b3c19"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <chord dur="4" stem.dir="down" xml:id="d62546e1">
+                              <artic artic="acc"/>
+                              <note oct="5" oct.ges="6" pname="c" xml:id="w62279ab1c19b5b1"/>
+                              <note oct="5" oct.ges="6" pname="e" xml:id="w62279ab1c19b5b3"/>
+                              <note oct="5" oct.ges="6" pname="g" xml:id="w62279ab1c19b5b5"/>
+                              <note oct="6" oct.ges="7" pname="c" xml:id="w62279ab1c19b5b7"/>
+                           </chord>
+                           <rest dur="4" xml:id="w62279ab1c19b5c11"/>
+                           <rest dur="2" xml:id="w62279ab1c19b5c13"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <chord dur="4" stem.dir="down" xml:id="d62558e1">
+                              <artic artic="acc"/>
+                              <note oct="5" pname="c" xml:id="w62279ab1c19b5c17"/>
+                              <note oct="5" pname="e" xml:id="w62279ab1c19b5c19"/>
+                              <note oct="5" pname="g" xml:id="w62279ab1c19b5c21"/>
+                              <note accid.ges="f" oct="5" pname="b" xml:id="w62279ab1c19b5c23"/>
+                           </chord>
+                           <rest dur="4" xml:id="w62279ab1c19b5c25"/>
+                           <rest dur="2" xml:id="w62279ab1c19b5c27"/>
+                        </layer>
+                     </staff>
+                     <dynam label="direction" place="below" staff="1" tstamp="2">p</dynam>
+                     <dynam label="direction" place="below" staff="2" tstamp="2">p</dynam>
+                  </measure>
+                  <measure n="4" right="end" xml:id="w62279ab1c21">
+                     <staff n="1">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w62279ab1c21b1b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mRest dur="1" xml:id="w62279ab1c21b3b1"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <rest dur="8" xml:id="w62279ab1c21b5b1"/>
+                           <beam>
+                              <chord dur="8" stem.dir="up" xml:id="d62609e1">
+                                 <note accid="s" oct="4" pname="d" xml:id="w62279ab1c21b5b5"/>
+                                 <note accid="s" oct="4" pname="f" xml:id="w62279ab1c21b5b7"/>
+                                 <note oct="4" pname="a" xml:id="w62279ab1c21b5b9"/>
+                                 <note oct="5" pname="c" xml:id="w62279ab1c21b5c11"/>
+                              </chord>
+                              <chord dur="8" stem.dir="up" xml:id="d62617e1">
+                                 <note oct="4" pname="e" xml:id="w62279ab1c21b5c15"/>
+                                 <note oct="4" pname="g" xml:id="w62279ab1c21b5c17"/>
+                                 <note accid.ges="f" oct="4" pname="b" xml:id="w62279ab1c21b5c19"/>
+                                 <note oct="5" pname="c" xml:id="w62279ab1c21b5c21"/>
+                              </chord>
+                              <chord dur="8" stem.dir="up" xml:id="d62625e1">
+                                 <note oct="4" pname="e" xml:id="w62279ab1c21b5c23"/>
+                                 <note oct="4" pname="g" xml:id="w62279ab1c21b5c25"/>
+                                 <note accid.ges="f" oct="4" pname="b" xml:id="w62279ab1c21b5c27"/>
+                                 <note oct="5" pname="c" xml:id="w62279ab1c21b5c29"/>
+                              </chord>
+                           </beam>
+                           <rest dur="2" xml:id="w62279ab1c21b5c31"/>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <rest dur="8" xml:id="w62279ab1c21b5c35"/>
+                           <clef line="4" shape="F" tstamp="1.5" xml:id="w62279ab1c21b5c37b1"/>
+                           <beam>
+                              <chord dur="8" stem.dir="down" xml:id="d62638e1">
+                                 <note accid="s" oct="3" pname="c" xml:id="w62279ab1c21b5c39"/>
+                                 <note oct="3" pname="d" xml:id="w62279ab1c21b5c41"/>
+                                 <note accid="s" oct="3" pname="f" xml:id="w62279ab1c21b5c43"/>
+                                 <note oct="3" pname="a" xml:id="w62279ab1c21b5c45"/>
+                              </chord>
+                              <chord dur="8" stem.dir="down" xml:id="d62646e1">
+                                 <note accid.ges="s" oct="3" pname="c" xml:id="w62279ab1c21b5c47"/>
+                                 <note oct="3" pname="e" xml:id="w62279ab1c21b5c49"/>
+                                 <note oct="3" pname="g" xml:id="w62279ab1c21b5c51"/>
+                                 <note accid.ges="f" oct="3" pname="b" xml:id="w62279ab1c21b5c53"/>
+                              </chord>
+                              <chord dur="8" stem.dir="down" xml:id="d62654e1">
+                                 <note accid.ges="s" oct="3" pname="c" xml:id="w62279ab1c21b5c55"/>
+                                 <note oct="3" pname="e" xml:id="w62279ab1c21b5c57"/>
+                                 <note oct="3" pname="g" xml:id="w62279ab1c21b5c59"/>
+                                 <note accid.ges="f" oct="3" pname="b" xml:id="w62279ab1c21b5c61"/>
+                              </chord>
+                           </beam>
+                           <rest dur="2" xml:id="w62279ab1c21b5c63"/>
+                        </layer>
+                     </staff>
+                     <dynam label="direction" place="below" staff="3" tstamp="1.5">p</dynam>
+                     <dir label="words " place="below" staff="3" tstamp="2">rall.</dir>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
